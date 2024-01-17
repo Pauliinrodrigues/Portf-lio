@@ -1,0 +1,14 @@
+// Estruturas de Container entre outros.
+.container{
+    width: 700px;
+    position: relative;
+    box-sizing: border-box;  // Para que o padding não aumente o tamanho do container.
+}
+
+@media (max-width:750px){
+    .container{
+        width: 100%;
+        padding: 0 20px;
+    }
+
+}

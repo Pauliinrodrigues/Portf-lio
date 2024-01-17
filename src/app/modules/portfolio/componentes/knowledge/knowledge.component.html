@@ -1,0 +1,17 @@
+<div class="container">
+    <h2>Conhecimentos</h2>
+    <ul>
+        @for(item of arrayKnowledge(); track item){
+        <li>
+            <img 
+             [src]="item.src" 
+             [alt]="item.alt"
+             loading="lazy"    
+             widht="22px"
+             link="24px" 
+             />              <!--lazy loading: carregamento lento, carrega a imagem somente quando o usuário chega naquele ponto da página-->
+        </li>
+       }
+    </ul>
+</div>
+
